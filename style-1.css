@@ -1,0 +1,602 @@
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --primary:#01b3a7;
+    --secondary1:#000000;
+    --secondary2:#989b9b;
+
+
+}
+
+body{
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.clearfix{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* utility */
+
+.btn-main{
+    width: 10.5rem;
+    height: 3.8rem;
+    font: 50rem;
+    background: none;
+    border: .1rem solid var(--secondary1);
+}
+.btn-main:hover{
+    background-color: var(--primary);
+    border: .1rem solid var(--primary);
+}
+.btn-main-2{
+    width: 10.5rem;
+    height: 3.8rem;
+    font: 50rem;
+    background: none;
+    border: .1rem solid white;
+    color: white;
+}
+.btn-main-2:hover{
+    background-color: var(--primary);
+    border: .1rem solid var(--primary);
+}
+
+.title{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+/* utility finish  */
+
+header{
+    /* clear: both; */
+}
+.navbar{
+    display: flex;
+    position: relative;
+
+    background-color: #192e44;
+    clear: both;
+
+}
+.navbar .brand-title {
+    width: 5%;
+}
+
+.navbar .brand-title img{
+    width: 100%;
+    border-radius:100% ;
+}
+.navbar .brand-title h1{
+
+    background-color: green;
+    color: pink;
+
+
+    
+}
+
+.navbar-links{
+    height: 50%;
+    /* background-color: red; */
+}
+
+.navbar-links ul{
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li{
+    list-style: none;
+
+}
+.navbar-links li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.navbar-links li:hover{
+    background-color: #555;
+    border-top: 2px solid#01b3a7;
+    opacity: 1;
+}
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: .75rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius:10px ;
+}
+
+/* fav finished  */
+/* banner starts here  */
+
+.banner{
+    margin: 0 auto;
+    width: 100%;
+    height: 80vh;
+    
+    
+    
+
+}
+.banner-box{
+    width: 100vw;
+    height: 80vh;
+    /* padding: 8rem 10rem; */
+    color: white;
+    display: block;
+    padding: 8rem;
+    position: relative;
+    z-index: 2;
+    
+    
+}
+.banner .box-1{
+    background-image: url(./image/banner-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}.banner .box-2{
+    background-image: url(./image/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}.banner .box-3{
+    background-image: url(./image/banner-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.banner-box h1{
+    margin-top: .7rem;
+    font-size: 5rem;
+    font-weight: 300;
+}
+.banner-box h1 span{
+    margin-top: .8rem;
+    font-size: 5rem;
+    font-weight: 600;
+}
+.banner-box p{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: .8rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+/* banner finish here  */
+
+/* section-1 starts here  */
+
+.section-1{
+    width: 75%;
+    display: flex;
+    /* margin: .8rem 12rem; */
+    margin: 0rem auto;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+    bottom: 3rem;
+    text-align: center;
+    z-index: 1;
+}
+.section-1 .box{
+    width: 30%;
+    height: 55vh;
+    max-height: 35rem;
+    margin: 0 auto;
+    position: relative;
+
+}
+.section-1 .box-1{
+
+    background-image: url(./image/box-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    /* width: 30%; */
+    
+}
+.section-1 h2{
+    width: 100%;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    text-align:center;
+}
+
+.section-1 .box-2{
+    background-image: url(./image/box-2.jpg);
+    background-size:cover;
+    width: 30%;
+
+}
+
+.section-1 .box-3{
+    background-image: url(./image/box-3.jpg);
+    background-size:cover;
+    width: 30%;
+}
+.section-1 p{ 
+    color: black;
+    font-weight: 900;
+}
+/* section-1 ends here  */
+
+/* section-2 starts  */
+.section-2{
+    
+    width: 70%;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2 img{
+    width: 45%;
+}
+.section-2 .text-box{
+    width: 45%;
+    margin: 2rem 0;
+}
+
+
+.section-2 p{
+    font-size: 1rem;
+    margin: 1.5rem 0;
+}
+
+
+/* section-2 ends  */
+
+/* Our service starts  */
+.service{
+    margin-top: 3rem;
+    width: 80%;
+    margin: 4rem auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    clear: both;
+
+}
+
+  
+
+.service-box{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    clear: both;
+    margin-top: 1.2rem;
+
+}
+
+.service .boxx{
+    width: 30%;
+    border: .5rem solid #f4f4f4;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    padding: 1rem;
+}
+.service .boxx h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.service .boxx p{
+    font-size: .9rem;
+    font-weight: 200;
+    color: var(--secondary2);
+    
+}
+
+
+.service .boxx span .fas{
+    font-size:2rem;
+    color: var(--primary);
+    margin: 0 5rem;
+    margin-bottom: 1rem;
+
+    
+}
+
+/* our service ends  */
+
+/* hot tour starts  */
+.tour{
+    width:70vw;
+    margin: 3rem auto;
+    margin-bottom: 8rem;
+}
+.tour h2{
+    text-align: center;
+    margin: 2rem auto;
+
+}
+.tour-box{
+    width: 100%;
+ 
+}
+.tour-box .box-1{
+    border: .2rem solid #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.tour-box .box-1 img{
+    width: 50%;
+    margin-right: .7rem;
+}
+.tour-box .box-1 .text-box{
+    width: 100%;
+    margin-left: 3rem;
+}
+.tour .text-box h4{
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.tour .text-box p{
+    font-size: 1rem;
+    margin-top: 3rem;
+    color: #9b9b9b;
+    line-height: 1.5rem;
+}
+.tour-box button{
+    margin-top: 2rem;
+}
+/* hot tour ends  */
+/* team starts here  */
+.team{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+
+    
+}
+.team h3{
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.team .team-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+.team .box{
+    width: 23%;
+    
+
+
+
+    
+}
+.team .img-box{
+    width:40%;
+    margin: 0 auto;
+    border: .7rem solid white;
+    border-radius: 100%;
+    position: relative;
+    top: 5rem;
+}
+.team .box img{
+
+    width: 100%;
+    border-radius: 100%;
+
+
+}
+
+.team .text-box{
+    background-color: #f7f7f7;
+    width: 100%;
+    text-align: center;
+
+}
+
+.team .text-box h3{
+
+    padding-top: 5rem;
+
+}
+.team .text-box h4{
+    font-size: .8rem;
+    color: #01b3a7;
+   
+
+}
+.team .text-box p{
+    padding-bottom: 2rem;
+   
+
+}
+
+
+
+/* team ends here  */
+
+
+/* mid starts here  */
+.mid{
+    width: 100%;
+    background-image: url(./image/mid.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.mid .text-box{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10rem;
+    text-align: center;
+    color: white;
+}
+.mid .text-box h3{
+    font-size: 3rem;
+    font-weight: 300;
+
+}
+.mid .text-box h3 span{
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+.mid .text-box button{
+    width: 12rem;
+    font-size: 1rem;
+    margin-bottom: 7rem;
+}
+
+
+/* mid ends here  */
+
+
+/* say starts here  */
+.say{
+    width: 100%;
+    margin-top: 0rem;
+    background-color: #f7f7f7;
+    padding-top: 2rem;
+    text-align: center;
+
+}
+.say .say-box{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 6rem;
+
+    
+
+}
+.say .say-box .box{
+    width: 30%;
+    background-color: white;
+    box-shadow: 2px 2px 15px 1px #888888;
+
+}
+
+.say .say-box .img-box{
+    width: 35%;
+    border-radius: 100%;
+    margin: 0 auto;
+    border: 1rem solid white;
+    position: relative;
+    top: -60px;
+
+}
+
+.say .say-box .img-box img{
+    width: 100%;
+    border-radius: 100%;
+    position: relative;
+   
+}
+
+.say p{
+    margin-top: -4rem;
+    letter-spacing: .1rem;
+    font-size: 1rem ;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.say h3{
+    color: #01b3a7;
+}
+
+
+
+/* say ends here  */
+
+/* footer starts here  */
+footer{
+    margin-top: 6rem;
+    width: 100%;
+    background-color: #162e44;
+    color: white;
+}
+.footer-box{
+    padding-top: 3rem;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box .box{
+    width: 28%;
+}
+
+.title-2{
+    font-size: 1rem;
+
+}
+footer .box-1 li{
+    font-size: .8rem;
+    margin: 1.4rem;
+    list-style: none;
+    
+}
+.primary{
+
+    color: #01b3a7;
+    
+}
+footer .box-2 p{
+    font-size: .8rem;
+    margin: 1.4rem;
+    line-height: 1rem;
+    
+}
+
+footer .box-3 li{
+    font-size: .8rem;
+    margin: 1rem;
+    list-style-type: none;
+    
+    
+}
+
+
+
+
+
+/* footer ends here  */
+
+

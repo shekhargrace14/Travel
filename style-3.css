@@ -1,0 +1,169 @@
+/* media query 575px */
+
+@media only screen and (max-width:575px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* banner started  */
+    .banner{
+        width: 100%;
+        height: 100vh;
+        background-size:cover;
+        background-position: center;
+        margin-bottom: 5rem;
+
+
+    }
+    .banner .banner-box{
+        width: 100%;
+        margin: 0;
+        padding: 18rem 4rem;
+        height: 100vh;
+    }
+    .banner .banner-box p{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: .8rem;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+
+    }
+    .banner .banner-box h1{
+        font-size: 3rem;
+        margin-top: 2rem;
+        font-weight: 300;
+        margin: 0;
+    }
+    .banner .banner-box span{
+        font-size: 3rem;
+        margin: 0;
+    }
+    .banner .banner-box p{
+        
+    }
+    .banner-box button{
+    }
+    /* banner finished  */
+    /* section-1 starts here */
+    .section-1{
+        margin: 0rem auto;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        position: none;
+        position: initial;
+
+    }
+    .section-1 .box{
+        width: 100%;
+        display: block;
+        margin-bottom: 2rem;
+        text-align: center;
+        
+    }
+    .section-1 .box h2{
+        width: 100%;
+        margin-top: 18rem;
+        margin-bottom: 0;
+
+     
+    }
+    
+    /* section-1 ends here */
+    /* section-2 starts here */
+
+    .section-2{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+    .section-2 img{
+        width: 100%;
+        clear: both;
+    }
+    .section-2 .text-box{
+        width: 100%;
+        clear: both;
+
+        
+    }
+    .section-2 .text-box h2{
+        font-size: 1.5rem;  
+        margin: 2rem 0 ;             
+    }
+    .section-2 .text-box button {
+    
+        font-size: .9rem;  
+        margin-bottom: 0rem;             
+    }
+    /* section-2 ends here */
+
+
+
+
+    /* Our service starts  */
+    .service{
+        width: 90%;
+        margin: 5rem auto;
+        text-align: center;
+
+        
+    }
+    .service .boxx{
+        width: 100%;
+        padding: .5rem;
+    }
+    .service .boxx p{
+        width: 100%;
+        
+    }
+
+     /* Our service finished  */
+
+     /*hot tour starts here  */
+    .tour-box .box-1{
+        border: none;
+    }
+     .tour-box .box-1 img{
+         width: 50%;
+     }
+     /*hot tour finsh here  */
+    /* team starts here  */
+
+    .team {
+        width: 90%;
+    } 
+    .team .team-box .box{
+        width: 100%;
+     }
+    /* team ends here  */
+    /* say starts here  */
+    .say .say-box .box{
+        width: 100%;
+    }
+
+
+
+    /* say ends here  */
+
+
+    
+
+
+
+     
+    
+        
+    
+} 
+    
+
+/* media query 414px 

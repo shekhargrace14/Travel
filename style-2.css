@@ -1,0 +1,275 @@
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+
+/* media query 769px */
+
+@media only screen and (max-width:769px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-end;
+        /* height:100vh ;
+        width: 50%; */
+    }
+    .navbar .brand-title img{
+        width: 100;
+    }
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-links ul li{
+        text-align: center;
+    }
+    .navbar-links ul li a{
+        padding: .5rem 1rem;
+    }
+    .navbar-links.active{
+        display:flex;
+    }
+    /* banner started  */
+    .banner{
+        width: 100%;
+        height: 70vh;
+        /* padding: 5rem 5rem; */
+        margin-bottom: 1rem;
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+
+    }    
+    .banner-box{
+        width: 100%;
+        /* background-color: red; */
+    }
+
+
+    /* banner finished  */
+    /* section-1 starts here */
+    .section-1{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        position: static;
+        margin-top:5rem ;
+    }
+    .section-1 .box{
+        width: 100%;
+        display: block;
+        margin-bottom: 2rem;
+        text-align: center;
+        background-size: cover;
+        position: relative;
+        
+    }
+    .section-1 .box h2{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+
+     
+    }
+    
+    /* section-1 ends here */
+    /* section-2 starts here */
+
+    .section-2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        text-align: center;
+        margin: 0 auto;
+    
+
+
+    }
+    .section-2 img{
+        width: 100%;
+        clear: both;
+    }
+    .section-2 .text-box{
+        width: 100%;
+        clear: both;
+
+        
+    }
+    .section-2 .text-box h2{
+        font-size: 1.5rem;  
+        margin: 2rem 0 ;             
+    }
+    .section-2 .text-box button {
+    
+        font-size: .9rem;  
+        margin-bottom: 0rem;             
+    }
+    /* section-2 ends here */
+
+
+
+
+    /* Our service starts  */
+    .service{
+        width: 100%;
+        margin: 5rem auto;
+        text-align: center;
+
+        
+    }
+    .service .boxx{
+        width: 50%;
+        padding: .5rem;
+    }
+    .service .boxx p{
+        width: 100%;
+        
+    }
+
+     /* Our service finished  */
+
+     /*hot tour starts here  */
+     .tour{
+         width: 100%;
+     }
+     .tour .tour-box{
+        width: 100%;
+
+    }
+    .tour .tour-box .box-1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        border: none;
+
+
+    }
+    
+    .tour .tour-box .box-1 img{
+        width: 100%;
+        margin: 1rem 0;
+     }
+    .tour .tour-box .box-1 .text-box{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+
+     }
+     .tour .tour-box .box-1 .text-box h4{
+        margin: 0 auto;
+
+     }
+     .tour .tour-box .box-1 .text-box p{
+        margin: 0 auto;
+
+     }
+     /*hot tour finsh here  */
+    /* team starts here  */
+
+     .team .team-box .box{
+        width: 45%;
+        margin: .1rem;
+        /* background-color: red; */
+     }
+
+     /* mid starts here  */
+.mid{
+    width: 100vw;
+    height: 100vh;
+
+    
+}
+.mid .text-box{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    /* background-color: red; */
+
+}
+.mid .text-box h3{
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+.mid .text-box h3 span{
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+.mid .text-box button{
+    width: 12rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+/* mid ends here  */
+
+
+/* say starts here  */
+.say{
+    width: 100%;
+    /* background-color: red; */
+}
+.say h2{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.say .say-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.say .say-box .box{
+    width: 90%;
+    margin: 3rem 0;
+}
+
+/* say ends here  */
+    
+
+
+/* footer starts here  */
+footer{
+    width: 100%;
+}
+footer .footer-box{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .footer-box .box{
+    width: 100%;
+}
+/* footer ends here  */
+        
+    
+} 
+    
+
+/* media query 769px */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
