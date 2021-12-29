@@ -27,6 +27,10 @@
     .toggle-button{
         display: flex;
     }
+    
+    .navbar-links{
+        display: none;
+    }
 
     .navbar-links ul{
         width: 100%;
